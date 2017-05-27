@@ -14,6 +14,7 @@
 		5D0A43B11ECD37DB00E8AF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0A43AF1ECD37DB00E8AF35 /* LaunchScreen.storyboard */; };
 		5D0A43BC1ECD37DB00E8AF35 /* Africa_TruthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A43BB1ECD37DB00E8AF35 /* Africa_TruthTests.swift */; };
 		5D0A43C71ECD37DB00E8AF35 /* Africa_TruthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A43C61ECD37DB00E8AF35 /* Africa_TruthUITests.swift */; };
+		5DEBA3241EDA194B00345E8F /* FlagInfoViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBA3231EDA194B00345E8F /* FlagInfoViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5D0A43C21ECD37DB00E8AF35 /* Africa TruthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Africa TruthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0A43C61ECD37DB00E8AF35 /* Africa_TruthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_TruthUITests.swift; sourceTree = "<group>"; };
 		5D0A43C81ECD37DB00E8AF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEBA3231EDA194B00345E8F /* FlagInfoViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagInfoViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5D0A43A61ECD37DB00E8AF35 /* AppDelegate.swift */,
 				5D0A43A81ECD37DB00E8AF35 /* ViewController.swift */,
 				5D0A43AA1ECD37DB00E8AF35 /* Main.storyboard */,
+				5DEBA3231EDA194B00345E8F /* FlagInfoViewC.swift */,
 				5D0A43AD1ECD37DB00E8AF35 /* Assets.xcassets */,
 				5D0A43AF1ECD37DB00E8AF35 /* LaunchScreen.storyboard */,
 				5D0A43B21ECD37DB00E8AF35 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				5D0A43A91ECD37DB00E8AF35 /* ViewController.swift in Sources */,
 				5D0A43A71ECD37DB00E8AF35 /* AppDelegate.swift in Sources */,
+				5DEBA3241EDA194B00345E8F /* FlagInfoViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				5D0A43CD1ECD37DB00E8AF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0A43CE1ECD37DB00E8AF35 /* Build configuration list for PBXNativeTarget "Africa TruthTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				5D0A43D01ECD37DB00E8AF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0A43D11ECD37DB00E8AF35 /* Build configuration list for PBXNativeTarget "Africa TruthUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				5D0A43D31ECD37DB00E8AF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
